@@ -1,4 +1,14 @@
 <?php
+$number= 100;
+$mamber= 2;
+while devision($number > $mamber); {$number/$mamber
+};
+return $number;
+echo $number;
+
+
+
+
 
 //TODO: задание: 1. Написать функцию которая будет делить переданное число на 2.
 // TODO: задание: 2. Написать функцию которая будет возводить переданное число в квадрат
