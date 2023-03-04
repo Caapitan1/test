@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+background-color: #333;
+}
+
+.search__container {
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+
+.search__input {
+margin-right: 16px;
+padding: 16px;
+height: 40px;
+width: 500px;
+font-size: 18px;
+color: brown;
+border: none;
+border-radius: 10px;
+outline: none;
+transition: all 0.3s ease;
+}
+
+.search__input:focus {
+box-shadow: 0 0 20px #b64005;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+-webkit-appearance:none;
+}
+
+.search__button {
+display: inline-block;
+width: 110px;
+height: 40px;
+color: #fff;
+font-size: inherit;
+background-color: brown;
+border: none;
+border-radius: 10px;
+transition: all 0.3s ease;
+}
+
+.search__button:hover {
+background-color: rgb(144, 17, 17);
+}
+</style>
+<body>
+<div class="search__container">
+<input type="search" name="search" placeholder="Введите текст для поиска" class="search__input">
+<button class="search__button">Искать</button>
+</body>                                                                                                                                                                           </div>
+                                                                                                                                                                        </body>
+</html>

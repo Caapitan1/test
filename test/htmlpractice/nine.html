@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Батарейки</title>
+</head>
+<style>
+    .b{
+        width:150px;
+        height: 50px;
+        border: 4px solid black;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .b::before, :after{ content: ''; position:absolute;}
+    .b::after{
+        width: 10px;
+        height: 20px;
+        top: 15px;
+        right: -15px;
+        background: black;
+    }
+    .b::before{ height: 100%;}
+    .low::before{width:33%; background: red;}
+    .medium::before{width:66%; background: yellow;}
+    .full::before{ width:100%; background: green;}
+</style>
+<body>
+<div class="b low"></div>
+<div class="b medium"></div>
+<div class="b full"></div>
+</body>
+</html>

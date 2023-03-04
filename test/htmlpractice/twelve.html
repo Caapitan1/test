@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Градиентные кнопки</title>
+    <style>
+        button {
+            padding: 3px 7px; /* Поля вокруг текста */
+            color: black; /* Цвет текста */
+            -webkit-border-radius: 5px; /* Радиус для Safari и Chrome */
+            border: 1px solid black; /* Параметры рамки */
+        }
+        button.t1 {
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+        }
+        button.t2 {
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#4af264), to(#4af264), color-stop(0.5, #39ba4d));
+        }
+        button.t3 {
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#e0f0f4), to(#00bbd6), color-stop(0.72, #00bee8));
+            color: #ffe;}
+        button.t4 {
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#c4b4b4), to(#8d7e7e), color-stop(0.2,black));
+            color: white;
+        }
+        button.t5 {
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(grey), to(grey), color-stop(0.2, white));
+            border: 2px inset #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<form  action="">
+    <p>
+        <button class="t1">Простой градиент</button>
+        <button class="t2">Выпуклая кнопка</button>
+        <button class="t3">Другая выпуклая кнопка</button>
+        <button class="t4">Кнопка в стиле Веб 2.0</button>
+        <button class="t5">Вдавленная кнопка</button>
+
+</body>
+</html>
